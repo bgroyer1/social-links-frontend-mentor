@@ -1,34 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <!-- META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <meta name="author" content="Braedan Royer" />
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <!-- TITLE -->
+    <title>Frontend Mentor | Social links profile</title>
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- JAVASCRIPT -->
+     <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="card">
+      <h1 class="name">Jessica Randall</h1>
+      <img class="profile_pic" src="assets/images/avatar-jessica.jpeg" alt="A young girl with an afro against a white background" aria-label="Profile Picture">
+      <h2 class="location">London, United Kingdom</h2>
+      <p class="bio">"Front-end developer and avid reader."</p>
+      <a aria-label="Github link" href="#" class="socials">Github</a>
+      <a aria-label="Frontend Mentor link" href="#" class="socials">Frontend Mentor</a>
+      <a aria-label="LinkedIn link" href="#" class="socials">LinkedIn</a>
+      <a aria-label="Twitter link" href="#" class="socials">Twitter</a>
+      <a aria-label="Instagram link" href="#" class="socials">Instagram</a>
+    </div>
+  </body>
 </html>
